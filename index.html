@@ -1,0 +1,23 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<form action="." method="get">
+<input id="url" type="text" name="url"
+  size="100">
+<input type="submit" />
+<br />
+<input type="button" value="&lt;" onmousedown="startloop(-1)" onmouseup="endloop()"/>
+<input type="text" id="offset" name="offset" size="3" value="0" />
+<input type="button" value="&gt;" onmousedown="startloop(1)" onmouseup="endloop()" />
+</form>
+
+<canvas id="canvas">
+</canvas>
+
+
+<script src="bilateral.js"></script>
+</body>
+</html>
